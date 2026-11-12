@@ -1,61 +1,65 @@
 {
-    "version": 1,
-    "categorias_nuevas": [
+  "version": 1,
+  "categorias_nuevas": [
+    {
+      "id": 10,
+      "nombre": "Naturaleza",
+      "descripcion": "Palabras relacionadas al entorno natural, flora y fauna",
+      "icono": "nature_icon"
+    }
+  ],
+  "palabras_nuevas": [
+    {
+      "id": 501,
+      "guarani": "Jaguar",
+      "espanol": "Yaguareté",
+      "portugues": "Onça-pintada",
+      "ingles": "Jaguar",
+      "nota": "Felino grande de la región",
+      "armonia": "Nasal",
+      "clase_verbal": "Sust",
+      "tipo": "Nominal",
+      "imagen": "jaguar.png",
+      "categoria_id": 10,
+      "version": 4,
+      "ejemplos": [
         {
-            "id": 2,
-            "nombre": "Animales",
-            "descripcion": "Animales",
-            "icono": "animales.png"
+          "id": 101,
+          "palabra_id": 501,
+          "guarani": "Pe yaguareté oiko ka'aguy rupi.",
+          "espanol": "El yaguareté anda por el monte.",
+          "portugues": "A onça-pintada anda pela mata.",
+          "ingles": "The jaguar walks through the forest."
         }
-    ],
-    "palabras_nuevas": [
+      ],
+      "conjugaciones": [],
+      "relaciones": [
         {
-            "id": 501,
-            "guarani": "jaguar",
-            "espanol": "jaguar",
-            "portugues": "onça",
-            "ingles": "jaguar",
-            "nota": "Animal sagrado",
-            "armonia": "oral",
-            "clase_verbal": "",
-            "tipo": "sustantivo",
-            "imagen": "jaguar.png",
-            "categoria_id": 2,
-            "version": 4,
-            "ejemplos": [
-                {
-                    "id": 1001,
-                    "guarani": "Jaguar oiko ka'aguy...",
-                    "espanol": "El jaguar vive...",
-                    "portugues": "...",
-                    "ingles": "..."
-                }
-            ],
-            "conjugaciones": [],
-            "relaciones": [
-                {
-                    "id": 2001,
-                    "sinonimo": "jaguarete",
-                    "antonimo": "",
-                    "notas": ""
-                }
-            ],
-            "imagenes": [
-                {
-                    "id": 3001,
-                    "ruta": "jaguar.png",
-                    "descripcion": "Jaguar adulto",
-                    "tipo": "principal"
-                }
-            ],
-            "audios": [
-                {
-                    "id": 4001,
-                    "archivo_audio": "jaguar.mp3",
-                    "velocidad": "normal",
-                    "notas": ""
-                }
-            ]
+          "id": 45,
+          "palabra_id": 501,
+          "sinonimo": "Jaguarete",
+          "antonimo": "",
+          "notas": "Variante común"
         }
-    ]
+      ],
+      "imagenes": [
+        {
+          "id": 22,
+          "palabra_id": 501,
+          "ruta": "jaguar.png",
+          "descripcion": "Yaguareté en su hábitat",
+          "tipo": "foto"
+        }
+      ],
+      "audios": [
+        {
+          "id": 12,
+          "palabra_id": 501,
+          "archivo_audio": "jaguar.mp3",
+          "velocidad": "normal",
+          "notas": "Pronunciación nativa"
+        }
+      ]
+    }
+  ]
 }
